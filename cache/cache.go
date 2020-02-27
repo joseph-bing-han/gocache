@@ -68,6 +68,10 @@ func (c *Cache) GetType() string {
 // getCacheKey returns the cache key for the given key object by computing a
 // checksum of key struct
 func (c *Cache) getCacheKey(key interface{}) string {
+	//  key 是字符串则保持不变
+	if reflect.TypeOf(key).String() == "string" {
+		return key.(string)
+	}
 	return strings.ToLower(checksum(key))
 }
 
