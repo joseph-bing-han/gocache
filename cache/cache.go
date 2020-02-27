@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/eko/gocache/codec"
-	"github.com/eko/gocache/store"
+	"github.com/joseph-bing-han/gocache/codec"
+	"github.com/joseph-bing-han/gocache/store"
 )
 
 const (

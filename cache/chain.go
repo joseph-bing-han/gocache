@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/eko/gocache/store"
+	"github.com/joseph-bing-han/gocache/store"
 )
 
 const (

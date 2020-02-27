@@ -5,7 +5,7 @@
 package mocks
 
 import (
-	codec "github.com/eko/gocache/codec"
+	codec "github.com/joseph-bing-han/gocache/codec"
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
 )

@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eko/gocache/store"
-	mocksCache "github.com/eko/gocache/test/mocks/cache"
-	mocksCodec "github.com/eko/gocache/test/mocks/codec"
-	mocksStore "github.com/eko/gocache/test/mocks/store"
+	"github.com/joseph-bing-han/gocache/store"
+	mocksCache "github.com/joseph-bing-han/gocache/test/mocks/cache"
+	mocksCodec "github.com/joseph-bing-han/gocache/test/mocks/codec"
+	mocksStore "github.com/joseph-bing-han/gocache/test/mocks/store"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 )

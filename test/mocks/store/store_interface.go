@@ -5,7 +5,7 @@
 package mocks
 
 import (
-	store "github.com/eko/gocache/store"
+	store "github.com/joseph-bing-han/gocache/store"
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
 )

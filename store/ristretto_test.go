@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	mocksStore "github.com/eko/gocache/test/mocks/store/clients"
+	mocksStore "github.com/joseph-bing-han/gocache/test/mocks/store/clients"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 )
